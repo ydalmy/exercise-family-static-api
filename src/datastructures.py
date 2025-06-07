@@ -70,7 +70,7 @@ class FamilyStructure:
         for member_obj in self._members: # recorriendo el arreglo
             # logica sobre un member
             if(member_obj["id"] == id):
-                return member_obj # regresando el member encontrado
+                return member_obj
             else:
                 return None
 
